@@ -10,8 +10,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-axios-middleware": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
